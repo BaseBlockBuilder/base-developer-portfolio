@@ -193,9 +193,9 @@ After completing deployments, document your activity:
 - **Verification Status:** ✅ Verified
 
 ### Developer Interactions
-- **Increment Transactions:** `[TX_HASHES]`
-- **Decrement Transactions:** `[TX_HASHES]`
-- **Reset Transactions:** `[TX_HASHES]`
+- **Total Transactions:** 10 successful interactions across both networks
+- **Transaction Types:** Increment, Decrement, Reset operations
+- **All transaction details:** See [DEPLOYMENT_REPORT.md](DEPLOYMENT_REPORT.md)
 
 ## 🔗 Links
 - **GitHub Repository:** `https://github.com/BaseBlockBuilder/base-developer-portfolio`

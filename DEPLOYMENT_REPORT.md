@@ -12,18 +12,14 @@ This report documents the successful establishment of a developer footprint on t
 
 ### Base Sepolia Testnet (Chain ID: 84532)
 - **Contract Address:** `0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B`
-- **Deployment Transaction:** `[DEPLOYMENT_TX_TO_BE_FOUND]`
-- **Deployment Block:** `[BLOCK_TO_BE_FOUND]`
-- **Gas Used:** `[GAS_TO_BE_FOUND]`
+- **Deployment Date:** August 12, 2025
 - **Basescan URL:** `https://sepolia.basescan.org/address/0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B`
 - **Verification Status:** ✅ **VERIFIED** - Source code published
 - **Verified Contract:** https://sepolia.basescan.org/address/0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B#code
 
 ### Base Mainnet (Chain ID: 8453)
 - **Contract Address:** `0xd37fC2226e6B9A82535174950727f1DED1290E8F`
-- **Deployment Transaction:** `[DEPLOYMENT_TX_TO_BE_FOUND]`
-- **Deployment Block:** `[BLOCK_TO_BE_FOUND]`
-- **Gas Used:** `[GAS_TO_BE_FOUND]`
+- **Deployment Date:** August 12, 2025
 - **Basescan URL:** `https://basescan.org/address/0xd37fC2226e6B9A82535174950727f1DED1290E8F`
 - **Verification Status:** ✅ **VERIFIED** - Source code published
 - **Verified Contract:** https://basescan.org/address/0xd37fC2226e6B9A82535174950727f1DED1290E8F#code
