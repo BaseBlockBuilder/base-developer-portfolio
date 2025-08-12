@@ -1,0 +1,45 @@
+{
+  "name": "base-dev-portfolio",
+  "version": "1.0.0",
+  "description": "A Hardhat project for establishing developer footprint on Base network",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network baseMainnet",
+    "verify:sepolia": "hardhat run scripts/verify.js --network baseSepolia",
+    "verify:mainnet": "hardhat run scripts/verify.js --network baseMainnet",
+    "interact:sepolia": "hardhat run scripts/interact.js --network baseSepolia",
+    "interact:mainnet": "hardhat run scripts/interact.js --network baseMainnet",
+    "monitor:sepolia": "hardhat run scripts/monitor-events.js --network baseSepolia",
+    "monitor:mainnet": "hardhat run scripts/monitor-events.js --network baseMainnet"
+  },
+  "keywords": [
+    "hardhat",
+    "ethereum",
+    "base",
+    "smart-contracts",
+    "solidity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.25.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "typechain": "^8.3.0"
+  }
+}
