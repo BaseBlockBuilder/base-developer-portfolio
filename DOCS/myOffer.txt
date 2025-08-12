@@ -1,9 +1,0 @@
-I'll deploy simple smart contracts (like a Counter) from your provided wallet on both Base Mainnet and Sepolia.
-We’ll verify the contracts on Basescan to make your work publicly visible.
-
-I’ll  perform developer interactions (calls, reads, writes) using Hardhat or Foundry to show active development.
-
-We’ll create a public GitHub repo with the source code and link your wallet address in the README to connect your on-chain and off-chain identities.
-
-Finally, I’ll prepare a detailed report with all transaction links, contract pages, and the GitHub repo so you have clear documentation of your developer activity.
-This process will help you build a clear, professional footprint recognized by the Base community.
