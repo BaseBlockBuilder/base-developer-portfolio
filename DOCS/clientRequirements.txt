@@ -1,0 +1,6 @@
+I need help creating a new wallet and building a clear developer footprint on the Base network (Mainnet + Sepolia). Scope:
+	1.	Configure the wallet for Base Mainnet and Base Sepolia.
+	2.	From this wallet, deploy 1–2 minimal contracts (e.g., Counter) on Base and verify the source on Basescan using the Solidity Standard JSON Input flow. Provide all Basescan links (tx hashes + contract pages).
+	3.	Execute developer-grade interactions using Hardhat/Foundry from this wallet (calls, an additional deploy, read/write), ideally spread across multiple days.
+	4.	Create a public GitHub repo containing the code and include the wallet address in the README to link the on-chain identity to the code.
+	5.	Deliver a final report: wallet address, all tx links, Basescan contract links, repo link, and a step-by-step log.
