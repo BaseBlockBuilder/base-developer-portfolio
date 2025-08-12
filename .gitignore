@@ -28,3 +28,6 @@ yarn-error.log*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Documentation folder (local reference only)
+DOCS/
