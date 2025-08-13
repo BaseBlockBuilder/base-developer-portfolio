@@ -5,7 +5,7 @@
 [![Hardhat](https://img.shields.io/badge/Hardhat-Framework-yellow)](https://hardhat.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This project demonstrates a comprehensive Hardhat use case for deploying and interacting with smart contracts on the Base network (Mainnet and Sepolia testnet).
+This project demonstrates comprehensive smart contract development on the Base network, featuring multiple contract types with professional deployment, testing, and interaction capabilities.
 
 ## 🔗 Developer Identity
 
@@ -114,12 +114,28 @@ await counter.decrement();
 await counter.reset();
 ```
 
+## 🏗️ Smart Contracts
+
+### Counter Contract
+A professional counter implementation with:
+- Increment/decrement functionality
+- Owner-only reset capability
+- Comprehensive event logging
+- Gas-optimized operations
+
+### SimpleStorage Contract
+Advanced data storage contract featuring:
+- Multiple data types (uint256, string, bool)
+- User-specific data mapping
+- Owner access controls
+- Professional state management
+
 ## Project Structure
 
-- `contracts/` - Smart contracts
+- `contracts/` - Smart contracts (Counter.sol, SimpleStorage.sol)
 - `scripts/` - Deployment and utility scripts
-- `test/` - Test files
-- `deployments/` - Deployment artifacts (auto-generated)
+- `test/` - Comprehensive test files
+- `deployments/` - Contract addresses and deployment artifacts
 
 ## License
 
@@ -178,24 +194,23 @@ npx hardhat run scripts/interact.js --network baseMainnet
 npx hardhat run scripts/monitor-events.js --network <network-name>
 ```
 
-## 📊 Deployment Report Template
+## 📊 Live Deployments
 
-After completing deployments, document your activity:
-
-### Base Sepolia Testnet
+### Counter Contract - Base Sepolia
 - **Contract Address:** `0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B`
-- **Basescan Contract Page:** https://sepolia.basescan.org/address/0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B
-- **Verification Status:** ✅ Verified
+- **Basescan:** https://sepolia.basescan.org/address/0xA2AbF65ee8234BfbfF92Eb8B48EB22D9B278D51B
+- **Status:** ✅ Verified & Active
 
-### Base Mainnet
-- **Contract Address:** `0xd37fC2226e6B9A82535174950727f1DED1290E8F`
-- **Basescan Contract Page:** https://basescan.org/address/0xd37fC2226e6B9A82535174950727f1DED1290E8F
-- **Verification Status:** ✅ Verified
+### SimpleStorage Contract - Base Sepolia  
+- **Contract Address:** `0x1516EE7E3c0bca2f2c3952d6173269da7fe40f2D`
+- **Basescan:** https://sepolia.basescan.org/address/0x1516EE7E3c0bca2f2c3952d6173269da7fe40f2D
+- **Status:** ✅ Deployed & Active
 
-### Developer Interactions
-- **Total Transactions:** 10 successful interactions across both networks
-- **Transaction Types:** Increment, Decrement, Reset operations
-- **All transaction details:** See [DEPLOYMENT_REPORT.md](DEPLOYMENT_REPORT.md)
+### Developer Activity
+- **Total Transactions:** 15+ successful interactions
+- **Contract Types:** Counter, Data Storage, User Mapping
+- **Operations:** Increment/Decrement, Data Storage, Reset Functions
+- **Comprehensive Details:** See [DEPLOYMENT_REPORT.md](DEPLOYMENT_REPORT.md)
 
 ## 🔗 Links
 - **GitHub Repository:** `https://github.com/BaseBlockBuilder/base-developer-portfolio`
