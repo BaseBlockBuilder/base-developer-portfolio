@@ -5,13 +5,13 @@
 [![Hardhat](https://img.shields.io/badge/Hardhat-Framework-yellow)](https://hardhat.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This project demonstrates comprehensive smart contract development on the Base network, featuring multiple contract types with professional deployment, testing, and interaction capabilities.
+Smart contracts built for Base network. Includes a Counter and SimpleStorage contract with Hardhat setup, tests, and deployment scripts.
 
 ## 🔗 Developer Identity
 
 **Wallet Address:** `0x2C7808A3162146Cc861866783677B3Da64CFb7A6`
 
-This wallet address links this GitHub repository to on-chain activity on the Base network, establishing a clear developer footprint.
+This wallet was used to deploy and interact with the contracts on Base network.
 
 ## Prerequisites
 
@@ -117,18 +117,10 @@ await counter.reset();
 ## 🏗️ Smart Contracts
 
 ### Counter Contract
-A professional counter implementation with:
-- Increment/decrement functionality
-- Owner-only reset capability
-- Comprehensive event logging
-- Gas-optimized operations
+Basic counter with increment/decrement and owner-only reset. Includes events for tracking changes.
 
 ### SimpleStorage Contract
-Advanced data storage contract featuring:
-- Multiple data types (uint256, string, bool)
-- User-specific data mapping
-- Owner access controls
-- Professional state management
+Stores different data types (numbers, strings, booleans) with user-specific mappings and owner controls.
 
 ## Project Structure
 
@@ -141,9 +133,9 @@ Advanced data storage contract featuring:
 
 MIT
 
-## 📋 Complete Deployment Workflow
+## 📋 Deployment Guide
 
-Follow this step-by-step guide to establish your Base network developer footprint:
+Steps to deploy and test the contracts:
 
 ### Step 1: Environment Setup
 ```bash
